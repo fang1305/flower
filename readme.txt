@@ -1,3 +1,5 @@
-gi is a good tool
+gt is a good tool
 dev master
-ii n
+new master
+
+>>>>>>> newMaster
