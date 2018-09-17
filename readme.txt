@@ -1,3 +1,4 @@
-git is a good tool
+gt is a good tool
 dev master
+new master
 
