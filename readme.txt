@@ -1,3 +1,3 @@
-git is a good tool
+gi is a good tool
 dev master
-
+ii n
