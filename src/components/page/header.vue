@@ -35,11 +35,11 @@
                 
                 listIndex:0,
                 list:[
-                    {url:"/index",value:"爱尚你"},
-                    {url:"/love",value:"心唯你"},
-                    {url:"/happy",value:"心悦你"},
-                    {url:"/animate",value:"心由你"},
-                    {url:"/",value:"后台管理"}
+                    // {url:"/index",value:"爱尚你"},
+                    // {url:"/love",value:"心唯你"},
+                    // {url:"/happy",value:"心悦你"},
+                    // {url:"/animate",value:"心由你"},
+                    {url:"/index",value:"后台管理"}
                 ]
             }
         },methods:{
@@ -54,9 +54,12 @@
 </script>
 <style>
 .mainContent{
-    width: 80%;
+    width: 100%;
+    padding: 0 25px;
     margin: 0 auto;
     height: 100%;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #d6d5d5;
 }
 .imgBox{
     width: 30%;

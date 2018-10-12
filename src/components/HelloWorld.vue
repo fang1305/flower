@@ -2,7 +2,9 @@
   <div class="hello" id= 'hello'>
     <v-header  :number="5" class="header"></v-header>
     <div class="content">
-        <router-view></router-view>
+        <div class="main">
+            <router-view></router-view>
+        </div>
     </div>
     <div :is="tab" @tab-change="change" :number = "10" >
         <p slot="tab1">有没有感觉我特别可怜,没错,我就是插槽被插进来的,呜呜呜</p>
@@ -137,5 +139,11 @@ a {
     width: 100%;
     min-height: 1000px;
     background: #f0f0f0;
+    padding: 30px;
+}
+.content .main{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
 }
 </style>

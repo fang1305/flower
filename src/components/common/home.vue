@@ -3,7 +3,9 @@
     <v-header  :number="5" class="header"></v-header>
     <v-sidebar class="silderC"></v-sidebar>
     <div class="content">
-        <router-view></router-view>
+        <div class="main">
+            <router-view></router-view>
+        </div>
     </div>
     <div :is="tab" @tab-change="change" :number = "10" >
         <p slot="tab1">有没有感觉我特别可怜,没错,我就是插槽被插进来的,呜呜呜</p>
@@ -110,7 +112,9 @@ export default {
 </script>
 
 <style scoped>
-
+body{
+    background: #f0f0f0;
+}
 h1, h2 {
   font-weight: normal;
 }
@@ -146,5 +150,13 @@ a {
     min-height: 1000px;
     background: #f0f0f0;
     float: left;
+    height: 1000px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.content .main{
+    background: #fff;
+    width: 100%;
+    height: 100%;
 }
 </style>

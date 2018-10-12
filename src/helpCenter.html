@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>帮助中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            background: #f3f3f3;
+        }
+        .title{
+            text-align: center;
+            background: #fff;
+            padding-top: 16px;
+            display: inline-block;
+            width: 100%;
+        }
+        .imgNav{
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            color: #464d5c;
+            font-size: 15px;
+            margin: 0 0 21px;
+        }
+        .imgNav:before{
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            background: url(img/icon_nav.png) -1px -2px no-repeat;
+            margin-right: 2px;
+            background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            width: 18px;
+            height: 18px;
+        }
+        ul.listBox li div.bgImg{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 60px;
+            height: 60px;
+            margin-bottom: 3px;
+        }
+        ul.listBox{
+            margin:0 36px;
+            display: block;
+            padding: 0;
+            min-height: 200px;
+            height: auto;
+            zoom:1;
+        }
+        ul.listBox li{
+            width: 60px;
+            float: left;
+            margin: 0;
+            margin-bottom:30px;
+            padding: 0;
+            list-style: none;
+        }
+        ul.listBox li a{
+            text-decoration: none;
+            color: #6c7d91;
+        }
+        ul.listBox li:nth-child(2),ul.listBox li:nth-child(5){
+           margin: 0 calc((100% - 180px) / 2);
+        }
+        ul li .bgTitle{
+            display: inline-block;
+            white-space: nowrap;
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h4 class="imgNav">帮助导航</h4>
+        <ul class="listBox">
+            <li>
+                <a href="help/navigation.html"">
+                <div class="bgImg" style="background-image:url(img/icon1.png)"></div>
+                <div class="bgTitle">平台导航</div>
+                </a>
+            </li>
+            <li>
+                <a href="help/teacher.html">
+                <div class="bgImg" style="background-image:url(img/icon2.png)"></div>
+                <div class="bgTitle">老师帮助</div>
+                </a>
+            </li>
+            <li>
+                <a href="help/agent.html">
+                <div class="bgImg" style="background-image:url(img/icon3.png)"></div>
+                <div class="bgTitle">机构帮助</div>
+                </a>
+            </li>
+            <li>
+                <a href="help/student.html">
+                <div class="bgImg" style="background-image:url(img/icon4.png)"></div>
+                <div class="bgTitle">学生帮助</div>
+                </a>
+            </li>
+            <!-- <li>
+                <a href="###">
+                <div class="bgImg" style="background-image:url(img/icon5.png)"></div>
+                <div class="bgTitle">管理条例</div>
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                <div class="bgImg" style="background-image:url(img/icon6.png)"></div>
+                <div class="bgTitle">Help Center</div>
+                </a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
